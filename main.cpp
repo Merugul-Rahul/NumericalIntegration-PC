@@ -40,7 +40,7 @@ float calculateIntegral(float functionId, float a, float b, float n, float inten
     else if((int) functionId==3){
       functionResponse += f3(secondPartOfEquation,intensity);
     }
-    else if((int) functionId==3){
+    else if((int) functionId==4){
       functionResponse += f4(secondPartOfEquation,intensity);
     }
     else{
