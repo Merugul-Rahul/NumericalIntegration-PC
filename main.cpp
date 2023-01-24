@@ -34,13 +34,13 @@ float calculateIntegral(float functionId, float a, float b, float n, float inten
     if((int) functionId==1){
       functionResponse += f1(secondPartOfEquation,intensity);
     }
-    elseif((int) functionId==2){
+    else if((int) functionId==2){
       functionResponse += f2(secondPartOfEquation,intensity);
     }
-    elseif((int) functionId==3){
+    else if((int) functionId==3){
       functionResponse += f3(secondPartOfEquation,intensity);
     }
-    elseif((int) functionId==3){
+    else if((int) functionId==3){
       functionResponse += f4(secondPartOfEquation,intensity);
     }
     else{
